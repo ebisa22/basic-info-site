@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Basic Info Site</title>
+
+    <!-- Shared stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Shared navigation bar -->
+    <header class="navbar">
+        <a href="/" class="logo">InfoSite</a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main home page content -->
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">WELCOME TO INFOSITE</p>
+            <h1>Simple pages, built with Node.js.</h1>
+            <p class="description">
+                This is a simple website built to practice server-side
+                routing with Node.js.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="/about" class="button button-primary">Learn More</a>
+                <a href="/contact-me" class="button button-secondary">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- Highlights section -->
+        <section class="features">
+            <article class="feature-card">
+                <h2>About Me</h2>
+                <p>Learn more about the person behind this project.</p>
+                <a href="/about">Explore &rarr;</a>
+            </article>
+
+            <article class="feature-card">
+                <h2>Get in Touch</h2>
+                <p>Visit the contact page to find ways to connect.</p>
+                <a href="/contact-me">Contact &rarr;</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="footer">
+        <p>&copy; 2026 InfoSite. Built for learning Node.js.</p>
+    </footer>
+</body>
+</html>
